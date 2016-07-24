@@ -1,5 +1,4 @@
-# ozwcp
-Open Zwave Control Panel in a Docker Container
+#Open Zwave Control Panel in a Docker Container
 
 
 This container provides the Open Zwave Control Panel exposing the web server on the default port of 8090.
