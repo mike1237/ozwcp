@@ -1,7 +1,7 @@
 FROM alpine
 RUN apk --update add gnutls gnutls-dev libmicrohttpd libmicrohttpd-dev gcc git make g++ linux-headers libusb libusb-dev eudev eudev-dev coreutils && \
     cd /root && \
-    git clone https://github.com/OpenZWave/open-zwave.git && \
+    git clone -b Dev https://github.com/OpenZWave/open-zwave.git && \
     cd open-zwave && \
     make && \
 
